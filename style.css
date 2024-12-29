@@ -80,3 +80,91 @@ h1 {
     letter-spacing: 0.07em;
     color: #000;
 }
+
+.product-about {
+    width: 1200px;
+    height: 365px;
+    background-color: #fefdfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+section.product-about > h2 {
+    width: 590px;
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.41176;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #000;
+}
+
+.product-about-link {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 6px;
+}
+
+.product-about-link:hover {
+    border-bottom: 1px solid #000;
+    transition: 0.2s;
+}
+
+.sources-about-us {
+    width: 1200px;
+    height: 80px;
+    background-color: #f9f7f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.services-about-links {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 80px;
+}
+
+.services-about-link-element {
+    display: flex;
+    flex-direction: column;
+}
+
+div.services-about-link-element > img {
+    margin-bottom: 8px;
+}
+
+div.services-about-link-element > h3 {
+    font-family: "EB Garamond", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.344;
+    letter-spacing: 0.03em;
+    color: #000;
+    margin-bottom: 11px;
+}
+
+div.services-about-link-element > p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.services-about {
+    margin-bottom: 118px;
+}
+
